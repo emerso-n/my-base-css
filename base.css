@@ -17,8 +17,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  	box-sizing: border-box;
-  	user-select: none;
+  box-sizing: border-box;
+	-webkit-appearance: none;
+  user-select: none;
 }
 *::after, *::before{
     box-sizing: border-box;
@@ -46,6 +47,7 @@ table {
 button{
 	padding: 0;
 	margin: 0; /*this fixes the mobile formatting issue*/
+	
 }
 b{
 	font-weight: bold;
